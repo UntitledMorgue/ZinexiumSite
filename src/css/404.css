@@ -2,27 +2,65 @@ body {
   padding-top: 5em;
   display: flex;
   justify-content: center;
+  background-color:darkgrey;
 }
 
-.typewriter h1 {
+.fouro h1 {
   color: black;
   font-family: monospace;
   overflow: hidden; 
-  border-right: .15em solid orange; 
   white-space: nowrap;
   margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+  letter-spacing: .16em; 
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+h1 {
+  position: relative;
+  line-height:1;
+  bottom:100px;
+  left:94px;
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+#danger {
+  position: relative;
+  line-height:2;
+  left:56px;
+  bottom:45px;
+  filter: drop-shadow(0 0 0.75rem #72757e);
+}
+
+.notf {
+  color:white;
+  font-family:monospace;
+  position: relative;
+  top:-112px;
+  left:23px;
+}
+
+.notft {
+  color:white;
+  font-family:monospace;
+  position: relative;
+  top:-120px;
+  left:-60px;
+  letter-spacing: .16em;
+}
+
+.fourom {
+  position: relative;
+  left:48px;
+}
+
+.gob {
+  height:50px;
+  width:120px;
+  background-color: white;
+  border-color:black;
+  border-radius:6px;
+  border-width:2px;
+}
+
+.gob:hover {
+  background-color:black;
+  color:white;
 }
