@@ -66,7 +66,7 @@
       <div class="container marketing">
         <div class="row">
           <div class="col-lg-4">
-            <img id="devlogo" src="./src/img/4n4happysad.gif" alt="4n4">
+            <img id="devlogo" src="./src/img/4n4sadhappy.gif" alt="4n4">
 
             <h2 class="DevN">4n4hits</h2>
             <p class="job">Main Dev,&nbsp; Web Design</p>
@@ -282,5 +282,30 @@
       crossorigin="anonymous"
     ></script>
     <script src="./src/js/main.js"></script>
+
+    <button onclick="topFunction()" id="btop" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+<script>
+//Get the button
+var mybutton = document.getElementById("btop");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
   </body>
 </html>
