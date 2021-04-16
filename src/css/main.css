@@ -7,6 +7,7 @@ h1 {
 body,
 html {
   height: 100%;
+  overflow-x:hidden;
 }
 #particles-js canvas {
   /* display: block; */
@@ -478,57 +479,9 @@ height:430px;
 filter: drop-shadow(0 0 0.75rem #72757e);
 }
 
-.jobb {
-color:#94a1b2;
-text-shadow: 2px 2px 5px black;
-}
-
 #devlogo {
   border-radius:50%;
   box-shadow: 8px 10px 29px black;
-}
-
-#BTopButton {
-  display: inline-block;
-  background-color: #FF9800;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-#BTopButton::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
-#BTopButton:hover {
-  cursor: pointer;
-  background-color: #333;
-}
-#BTopButton:active {
-  background-color: #555;
-}
-#BTopButton.show {
-  opacity: 1;
-  visibility: visible;
-}
-
-@media (min-width: 500px) {
-  #BTopButton {
-    margin: 30px;
-  }
 }
 
 .zdescr {
@@ -548,19 +501,6 @@ opacity: 0.89;
   text-shadow: 2px 2px 5px black;
 }
 
-.discordI {
-  color: #267CDE;
-  text-shadow: 2px 2px 5px black;
-}
-
-.devdescrr {
-  text-shadow: 2px 2px 5px black;
-}
-
-.devnn {
-  text-shadow: 2px 2px 5px black;
-}
-
 .TopB {
   border:none;
   border-radius:4px;
@@ -568,22 +508,183 @@ opacity: 0.89;
   height:50px;
 }
 
-#btop {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #7f5af0;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+::-webkit-scrollbar {
+ width: 13px;
+ height: 13px;
+}
+::-webkit-scrollbar-thumb {
+ background: linear-gradient(13deg, #2cb67d 14%,#2cb67d 64%);
+ border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+ background: linear-gradient(13deg, #2DBD83 14%,#2dbd83 64%);
+}
+::-webkit-scrollbar-track{
+ background: #17181a;
+ border-radius: 9px;
+ box-shadow: inset 7px 10px 12px transparent;
 }
 
-#btop:hover {
-  background-color: #94a1b2;
+.WWProv {
+  font-size:16px;
+}
+
+.card-text {
+  text-shadow: 2px 2px 5px black;
+}
+
+.fa-eye-slash {
+  text-shadow: 2px 2px 5px black;
+  position:relative;
+  top:20px;
+}
+
+.TPrivacyC {
+  text-shadow: 2px 2px 5px black;
+}
+
+.card-body {
+  color:#fffffe;
+}
+
+.card-text {
+  color:#b1bdce;
+}
+
+.annagif {
+  background-color:white;
+} 
+
+.fa-shopping-cart {
+  text-shadow: 2px 2px 5px black;
+  position:relative;
+  top:20px;
+  color:white;
+}
+
+.fa-shield-alt {
+  text-shadow: 2px 2px 5px black;
+  position:relative;
+  top:20px;
+  color:white;
+}
+
+.fa-ghost {
+  text-shadow: 2px 2px 5px black;
+  position:relative;
+  top:20px;
+  color:white;
+}
+
+.fa-smile {
+  text-shadow: 2px 2px 5px black;
+  position:relative;
+  top:20px;
+  color:white;
+}
+
+.fa-trophy {
+  text-shadow: 2px 2px 5px black;
+  position:relative;
+  top:20px;
+  color:white;
+}
+
+#UnavT {
+  position:relative;
+  bottom:19px;
+}
+
+.JayD {
+  color: #267CDE;
+  text-shadow: 2px 2px 5px black;
+}
+
+.JayDa {
+  text-shadow: 2px 2px 5px black;
+}
+
+.MorganD {
+  color: #267CDE;
+  text-shadow: 2px 2px 5px black;
+}
+
+.MorganDa {
+  text-shadow: 2px 2px 5px black;
+}
+
+.McfD {
+  color: #267CDE;
+  text-shadow: 2px 2px 5px black;
+}
+
+.McfDa {
+  text-shadow: 2px 2px 5px black;
+}
+
+.McfDescrr {
+  text-shadow: 2px 2px 5px black;
+}
+
+.MorganDescrr {
+  text-shadow: 2px 2px 5px black;
+}
+
+.JayDescrr {
+  text-shadow: 2px 2px 5px black;
+}
+
+.MorganJ {
+  color:#94a1b2;
+  text-shadow: 2px 2px 5px black;
+  }
+
+  .McfJ {
+    color:#94a1b2;
+    text-shadow: 2px 2px 5px black;
+    }
+
+    .JayJ {
+      color:#94a1b2;
+      text-shadow: 2px 2px 5px black;
+      }
+
+      .MorganN {
+        text-shadow: 2px 2px 5px black;
+      }
+      .McfN {
+        text-shadow: 2px 2px 5px black;
+      }
+      .JayN {
+        text-shadow: 2px 2px 5px black;
+      }
+
+      
+#MorganL {
+  border-radius:50%;
+  box-shadow: 8px 10px 29px black;
+}
+
+
+#JayL {
+  border-radius:50%;
+  box-shadow: 8px 10px 29px black;
+}
+
+
+#McfL {
+  border-radius:50%;
+  box-shadow: 8px 10px 29px black;
+}
+
+.MorganWHR {
+  position:relative;
+  bottom:267px;
+  left:42px;
+  color:#505c6c;
+}
+
+.MorganWHR:hover {
+  text-shadow: 2px 2px 5px black;
+  color:white;
 }
