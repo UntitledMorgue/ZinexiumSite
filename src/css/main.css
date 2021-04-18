@@ -477,20 +477,24 @@ html {
 #zinexiumlogo {
 height:430px;
 filter: drop-shadow(0 0 0.75rem #72757e);
+user-select:none;
 }
 
 #devlogo {
   border-radius:50%;
   box-shadow: 8px 10px 29px black;
+  user-select:none;
 }
 
-.zdescr {
+.ZDescr {
   color:#94a1b2;
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
-.zmain {
+.ZMain {
   color:#7f5af0;
+  user-select:none;
 }
 
 .jumbotron {
@@ -499,6 +503,7 @@ opacity: 0.89;
 
 .lead {
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .TopB {
@@ -527,10 +532,12 @@ opacity: 0.89;
 
 .WWProv {
   font-size:16px;
+  user-select:none;
 }
 
 .card-text {
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .fa-eye-slash {
@@ -541,6 +548,7 @@ opacity: 0.89;
 
 .TPrivacyC {
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .card-body {
@@ -593,11 +601,14 @@ opacity: 0.89;
 #UnavT {
   position:relative;
   bottom:19px;
+  text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .JayD {
   color: #267CDE;
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .JayDa {
@@ -607,6 +618,7 @@ opacity: 0.89;
 .MorganD {
   color: #267CDE;
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .MorganDa {
@@ -616,6 +628,7 @@ opacity: 0.89;
 .McfD {
   color: #267CDE;
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .McfDa {
@@ -624,57 +637,69 @@ opacity: 0.89;
 
 .McfDescrr {
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .MorganDescrr {
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .JayDescrr {
   text-shadow: 2px 2px 5px black;
+  user-select:none;
 }
 
 .MorganJ {
   color:#94a1b2;
   text-shadow: 2px 2px 5px black;
+  user-select:none;
   }
 
   .McfJ {
     color:#94a1b2;
     text-shadow: 2px 2px 5px black;
+    user-select:none;
     }
 
     .JayJ {
       color:#94a1b2;
       text-shadow: 2px 2px 5px black;
+      user-select:none;
       }
 
       .MorganN {
         text-shadow: 2px 2px 5px black;
+        user-select:none;
       }
       .McfN {
         text-shadow: 2px 2px 5px black;
+        user-select:none;
       }
       .JayN {
         text-shadow: 2px 2px 5px black;
+        user-select:none;
       }
 
       
 #MorganL {
   border-radius:50%;
   box-shadow: 8px 10px 29px black;
+  user-select:none;
 }
 
 
 #JayL {
   border-radius:50%;
   box-shadow: 8px 10px 29px black;
+  user-select:none;
 }
 
 
 #McfL {
   border-radius:50%;
   box-shadow: 8px 10px 29px black;
+  user-select:none;
 }
 
 .MorganWHR {
@@ -682,9 +707,47 @@ opacity: 0.89;
   bottom:267px;
   left:42px;
   color:#505c6c;
+  user-select:none;
 }
 
 .MorganWHR:hover {
   text-shadow: 2px 2px 5px black;
   color:white;
+  user-select:none;
+}
+
+.PreviewO {
+  text-shadow: 2px 2px 5px black;
+  user-select:none;
+}
+
+.PreviewON {
+  text-shadow: 2px 2px 5px black;
+  user-select:none;
+}
+
+.PreviewOD {
+  text-shadow: 2px 2px 5px black;
+  user-select:none;
+}
+
+.PreviewPO {
+  position:relative;
+  bottom:445px;
+  left:499px;
+  top:-124px;
+  box-shadow: 8px 10px 29px black;
+  user-select:none;
+}
+
+.ZDevTS {
+  user-select:none;
+}
+
+.CopyrightARRZL {
+  user-select:none;
+}
+
+.PlaceHST {
+  user-select:none;
 }
