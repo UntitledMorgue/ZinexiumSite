@@ -1,3 +1,3 @@
 ## Ɀinexium ##
-<img src="src/img/zinexium3.png"> 
+<img src="https://i.vgy.me/KyZ5rf.png"> 
 Ɀinexium website
