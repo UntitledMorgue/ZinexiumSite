@@ -182,3 +182,8 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '300');
 });
 
+document.body.addEventListener("animationend", (ev) => {
+  if(ev.animationName === "fadeIn") {
+    ev.target.classList.add("fadeIn--after");
+  }
+});
