@@ -389,6 +389,7 @@ html {
 #hero .btn:hover {
   background: #fff;
   color: #000000;
+  box-shadow: 2px 2px 5px black;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -484,7 +485,6 @@ html {
 /* XI. Logo */
 #zinexiumlogo {
   height: 345px;
-  filter: drop-shadow(0 0 0.75rem #72757e);
 }
 
 #devlogo {
@@ -556,36 +556,64 @@ html {
 .fa-eye-slash {
   position: relative;
   top: 20px;
+  text-shadow: 2px 2px 5px black;
   color:white;
+}
+
+.ZSocials {
+  color:black;
+  position:relative;
+  top:24px;
+  left:6px;
+}
+
+.fa-discord:hover {
+  text-shadow: 2px 2px 5px rgb(30, 32, 32);
+  cursor:pointer
+}
+
+.fa-youtube:hover {
+  text-shadow: 2px 2px 5px rgb(30, 32, 32);
+  cursor:pointer
+}
+
+.fa-envelope:hover {
+  text-shadow: 2px 2px 5px rgb(30, 32, 32);
+  cursor:pointer
 }
 
 .fa-shopping-cart {
   position: relative;
   top: 20px;
+  text-shadow: 2px 2px 5px black;
   color: white;
 }
 
 .fa-shield-alt {
   position: relative;
   top: 20px;
+  text-shadow: 2px 2px 5px black;
   color: white;
 }
 
 .fa-ghost {
   position: relative;
   top: 20px;
+  text-shadow: 2px 2px 5px black;
   color: white;
 }
 
 .fa-smile {
   position: relative;
   top: 20px;
+  text-shadow: 2px 2px 5px black;
   color: white;
 }
 
 .fa-trophy {
   position: relative;
   top: 20px;
+  text-shadow: 2px 2px 5px black;
   color: white;
 }
 
@@ -714,8 +742,8 @@ html {
 }
 
 .fadeIn {
-  animation: fadeIn ease 1s;
-  animation-delay: 1s;
+  animation: fadeIn ease 3s;
+  animation-delay: 0s;
   animation-direction: alternate;
   opacity: 0;
 }
@@ -727,4 +755,19 @@ html {
 @keyframes fadeIn {
   0% { opacity: 0;}
   100% { opacity: 1; }
+}
+
+.btn-secondary {
+  background-color:#7f5af0;
+  border-style:none;
+}
+
+.btn-secondary:hover {
+  background-color:#6849c4
+}
+
+.UnavTDown {
+  position:relative;
+  top:276px;
+  left:560px;
 }
